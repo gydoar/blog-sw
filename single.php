@@ -28,7 +28,7 @@ get_header(); ?>
 							<div class="post-container">
 								<div class="post-row">
 									<div class="preview-inner">
-										<h2 class="title-next"><?php  _e('Next Article', 'zilla' ); ?></h2>
+										<h2 class="title-next"><?php  _e('Siguiente articulo', 'zilla' ); ?></h2>
 										<h3 class="title-next-post"><a href="<?php echo get_permalink($prev_ID); ?>"><?php echo $prev_post->post_title; ?></a></h3>
 
 										<?php if (has_excerpt($prev_ID)): ?>

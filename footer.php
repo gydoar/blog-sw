@@ -32,9 +32,8 @@
 			<footer id="footer" class="site-footer" role="contentinfo">
 			<?php zilla_footer_start(); ?>
 
-				<p class="copyright">&copy; <?php echo date( 'Y' ); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a>.</p>
+				<p class="copyright">&copy; <?php echo date( 'Y' ); ?> <a target="_blank" href="http://suwwweb.com"><?php bloginfo( 'name' ); ?></a>.</p>
 
-				<p class="credit"><?php _e('Powered by', 'zilla') ?> <a href="//wordpress.org/">WordPress</a> | <a href="//demo.themezilla.com/versed">Versed</a> by <a href="//www.themezilla.com/">ThemeZilla</a></p>
 
 			<?php zilla_footer_end(); ?>
 			<!-- END #footer -->

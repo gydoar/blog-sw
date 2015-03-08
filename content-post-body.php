@@ -12,7 +12,7 @@
 			
 			<!--BEGIN .entry-header-->
 			<header class="entry-header">
-				<?php zilla_post_title(); ?>
+				<!--<?php zilla_post_title(); ?> -->
 				<?php zilla_post_meta_header(); ?>
 				
 				<?php 

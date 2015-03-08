@@ -330,7 +330,7 @@ jQuery.fn.reverse = [].reverse;
 					},
 					url: url,
 					urlCurl: zillaVersed.vendorFolder + '/sharrre.php',
-					template: '<span class="total-shares"><span>{total}</span> ' + shareText + '</span> <a href="#" class="share-link fa fa-twitter"></a><a href="#" class="share-link fa fa-facebook"></a><a href="#" class="share-link fa fa-google-plus"></a><a href="#" class="share-link fa fa-pinterest"></a>',
+					template: '<span class="total-shares"><span>{total}</span> ' + 'Compartidos' + '</span> <a href="#" class="share-link fa fa-twitter"></a><a href="#" class="share-link fa fa-facebook"></a><a href="#" class="share-link fa fa-google-plus"></a><a href="#" class="share-link fa fa-pinterest"></a>',
 					enableHover: false,
 					enableTracking: false, //TODO add as theme option
 					render: function(api, options){

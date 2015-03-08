@@ -5848,14 +5848,13 @@ table .table {
 }
 .site-pusher {
   min-height: 100%;
-  padding-top: 78px;
+  
   background: #fff;
   -webkit-transition: all 300ms ease-out /* @easeOutCirc */;
           transition: all 300ms ease-out /* @easeOutCirc */;
 }
 .blog .site-content {
-  padding-top: 115px;
-  padding-top: 11.5rem;
+  
 }
 .archive .site-content,
 .search .site-content {
