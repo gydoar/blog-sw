@@ -1,0 +1,4 @@
+Versed
+=====
+
+Versed blog theme

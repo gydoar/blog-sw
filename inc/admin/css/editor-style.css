@@ -1,0 +1,11 @@
+@import url( '../../../style.css' );
+
+body.wp-autoresize,
+body {
+	padding: 20px !important;
+}
+
+html,
+body {
+	height: auto;
+}

@@ -1,0 +1,49 @@
+#customize-control-zilla_homepage_layout label {
+  overflow: hidden;
+  position: relative;
+  padding-left: 52px;
+  display: block;
+}
+#customize-control-zilla_homepage_layout label input {
+  position: absolute;
+  left: -100px;
+}
+#customize-control-zilla_homepage_layout label input:checked:before {
+  display: none;
+}
+#customize-control-zilla_homepage_layout label input:checked:after {
+  content: '';
+  display: block;
+  width: 46px;
+  height: 16px;
+  position: absolute;
+  left: 99px;
+  top: 10px;
+  border: 1px solid #1e8cbe;
+  border-radius: 2px;
+}
+#customize-control-zilla_homepage_layout label:first-of-type {
+  background: url(../img/home-feature-layout-0.svg) 4px 10px no-repeat;
+  background-size: 40px;
+}
+#customize-control-zilla_homepage_layout label:nth-of-type(2) {
+  background: url(../img/home-feature-layout-1.svg) 4px 10px no-repeat;
+  background-size: 40px;
+}
+#customize-control-zilla_homepage_layout label:nth-of-type(3) {
+  background: url(../img/home-feature-layout-2e.svg) 4px 10px no-repeat;
+  background-size: 40px;
+}
+#customize-control-zilla_homepage_layout label:nth-of-type(4) {
+  background: url(../img/home-feature-layout-2l.svg) 4px 10px no-repeat;
+  background-size: 40px;
+}
+#customize-control-zilla_homepage_layout label:nth-of-type(5) {
+  background: url(../img/home-feature-layout-2r.svg) 4px 10px no-repeat;
+  background-size: 40px;
+}
+#customize-control-zilla_homepage_layout label:nth-of-type(6) {
+  background: url(../img/home-feature-layout-3.svg) 4px 10px no-repeat;
+  background-size: 40px;
+}
+/*# sourceMappingURL=admin.css.map */

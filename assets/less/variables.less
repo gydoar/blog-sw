@@ -1,0 +1,45 @@
+//Colours
+@text-color: @gray;
+@link-color: @text-color;
+@search-border-color: #bfbfbf;
+@form-bg: #fafafa;
+@brand-danger: #f25c5c;
+@input-light: #9e9e9e;
+
+@brand-primary:  #0074d9;
+
+@nav-border: 1px solid fade(#000, 10%);
+
+//Type
+@font-family-base: 'Merriweather', serif;
+
+//Forms
+//** `<input>` background color
+@input-bg:                       #fafafa;
+
+//** Text color for `<input>`s
+@input-color:                    #616161;
+//** `<input>` border color
+@input-border:                   #e5e5e5;
+//** `<input>` border radius
+@input-border-radius:            @border-radius-base;
+//** Border color for inputs on focus
+@input-border-focus:             #e5e5e5;
+//** Placeholder text color
+@input-color-placeholder:        #bfbfbf;//** Default `.form-control` height
+@input-height-base:              (@line-height-computed + (@padding-base-vertical * 2) + 4);
+
+//Buttons
+@btn-primary-bg:                 #616161;
+@btn-primary-border:             darken(@btn-primary-bg, 5%);
+
+//Layout
+@nav-width: 400px;
+@nav-width-small: 300px;
+@grid-gutter-width: 40px;
+@container-tablet: ((740px + @grid-gutter-width));
+
+//Transitions
+@easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+@easeOutCirc: cubic-bezier(0.075, 0.820, 0.165, 1.000); /* easeOutCirc */
+@easeOutQuad: cubic-bezier(0.250, 0.460, 0.450, 0.940); /* easeOutQuad */

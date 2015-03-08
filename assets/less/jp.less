@@ -1,0 +1,156 @@
+/* Audio/Video jPlayer Skin --- */
+.jp-audio,
+.jp-video {
+	margin: 0 auto -1.57142857142em;
+	width: 480px;
+	max-width: 100%;
+}
+
+.jp-video + .jp-audio,
+.fluid-width-video-wrapper + .jp-audio { margin-top: 2.71428571428em; }
+
+.jp-gui { margin-bottom: -35px; }
+
+.jp-interface {
+	background: #232527 url(assets/img/media_player.png) 0 -132px repeat-x;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 0 #4B4E53 inset, 0 1px 3px rgba(0,0,0,.7);
+	box-shadow: 0 1px 0 #4B4E53 inset, 0 1px 3px rgba(0,0,0,.7);
+	margin-bottom: 3px;
+	position: relative;
+	height: 33px;
+	width: 91.25%; /* 438 / 480 */
+	left: 4.545454545%; /* 20 / 440 */
+	top: -53px;
+}
+
+.jp-video-full { position: relative; }
+
+.jp-video-full .jp-jplayer {
+	background: #000000;
+	top: 0;
+	left: 0;
+	position: fixed !important;
+	position: relative;
+	overflow: hidden;
+	z-index: 998;
+}
+
+.jp-video-full .jp-gui {
+	z-index: 1000;
+	display: block;
+}
+.jp-video-full .jp-interface {
+	bottom: 0;
+	top: auto;
+	left: 0.25%;
+	position: fixed;
+	width: 99%;
+	z-index: 1000;
+}
+
+/* Controls ----- */
+.jp-controls,
+.jp-toggles {
+	float: left;
+	margin: 0;
+	padding: 0;
+	z-index: 100;
+}
+
+.jp-controls li { float: left; }
+
+.jp-controls a {
+	position: absolute;
+	overflow: hidden;
+	text-indent: -999em;
+}
+
+.jp-play,
+.jp-pause {
+	background: #d2d6db url(assets/img/media_player.png) 0 0 no-repeat;
+	border-top: 1px solid #4b4e53;
+	border-bottom: none;
+	display: block;
+	z-index: 2;
+	height: 100%;
+	width: 30px;
+}
+
+.jp-play:hover,
+.jp-pause:hover {
+	background-color: #0076a3;
+	border-bottom: none;
+}
+
+.jp-pause { background-position: 0 -33px; }
+
+.jp-play,
+.jp-pause {
+	border-radius: 3px 1px 1px 3px;
+	border-right: 1px solid #4b4e53;
+}
+
+.jp-progress {
+	position: absolute;
+	padding: 0 25px 0 40px;
+	margin: 11px 0;
+	width: 100%;
+	height: 9px;
+}
+
+.jp-seek-bar {
+	background: #141618;
+	border-bottom: 1px solid #2c2d2f;
+	border-left: 1px solid #0f0f10;
+	border-right: 1px solid #0f0f10;
+	border-top: 1px solid #000000;
+	border-radius: 2px;
+	cursor: pointer;
+	height: 8px;
+	padding: 0 0 1px 0;
+	position: relative;
+	z-index: 999;
+}
+
+.jp-play-bar {
+	border-radius: 1px 2px 2px 1px;
+	background: #0076a3;
+	-webkit-background-size: 8px 8px;
+	-moz-background-size: 8px 8px;
+	background-size: 8px 8px;
+	background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+						transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+						transparent 75%, transparent);
+	background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+						transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+						transparent 75%, transparent);
+	background-image: -ms-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+						transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+						transparent 75%, transparent);
+	background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+						transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+						transparent 75%, transparent);
+	background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+						transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+						transparent 75%, transparent);
+	-webkit-box-shadow: 0 5px 5px rgba(255, 255, 255, .2) inset;
+	box-shadow: 0 5px 5px rgba(255, 255, 255, .2) inset;
+	height: 8px;
+}
+
+.jp-play-bar {
+	-webkit-animation: animate-stripes 3s linear infinite;
+	-moz-animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+	0% { background-position: 0 0; }
+	100% { background-position: 60px 0; }
+}
+
+@-moz-keyframes animate-stripes {
+	0% { background-position: 0 0; }
+	100% { background-position: 60px 0; }
+}
